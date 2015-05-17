@@ -25,7 +25,7 @@
 import numpy as np
 from rtlsdr import *
 
-import spektrumanalizor
+import freqshow
 
 
 class FreqShowModel(object):
