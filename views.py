@@ -29,7 +29,7 @@ import sys
 import numpy as np
 import pygame
 
-import spektrumanalizor
+import freqshow
 import ui
 
 
