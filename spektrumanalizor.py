@@ -83,8 +83,8 @@ if __name__ == '__main__':
 	pygame.display.update()
 	splash_start = time.time()
 	# Create model and controller.
-	fsmodel = model.FreqShowModel(size[0], size[1])
-	fscontroller = controller.FreqShowController(fsmodel)
+	fsmodel = model.spektrumanalizorModel(size[0], size[1])
+	fscontroller = controller.spektrumanalizorController(fsmodel)
 	time.sleep(2.0)
 	# Main loop to process events and render current view.
 	lastclick = 0
